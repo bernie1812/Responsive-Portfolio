@@ -269,38 +269,80 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-	div .container {
+	.container {
 		width: 100%;
 	}
 
-	section #main-bio {
-		width: 80%;
+	h1 {
+
+		margin-left: 28px;
+		width: 160px;
+		font-size: 18px;
+		padding-bottom: 33px;
 	}
 
-	section #connect-info {
-		width: 20%;
+	li {
+
+		margin-right: 25px;
 	}
 
-	div .footer {
+	#main-bio {
+		width: 243px;
+		height: 483px;
+		margin-bottom: 35px;
+	}
+
+	#bio-image {
+		width: 100%;
+	}
+
+	#connect-info {
+		width: 156px;
+		height::116px;
+	}
+
+	#linkedin-image,
+	#github-image,
+	#stack-image {
+
+	width: 29px;
+	height: 32px;
+	margin: 2px;
+}
+	.footer {
 		width: 100%;
 	}
 
 }
 
 @media screen and (max-width: 768px) {
-	div .container {
+	.container {
 		width: 100%;
 	}
 
-	section #main-bio {
+	#main-bio {
 		width: 100%;
 	}
 
-	section #connect-info {
+	#connect-info {
 		width: 100%;
 	}
 
-	div .footer {
+	.footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+	}
+
+	#main-bio {
+		width: 100%;
+	}
+
+	#connect-info {
 		width: 100%;
 	}
 }
