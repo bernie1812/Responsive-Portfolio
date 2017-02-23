@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	background-image: url("assets/images/cheap.png");
+	margin: auto;
 }
 
 
@@ -266,4 +267,37 @@ textarea {
 	float: left;
 	margin-left: 25px;
 	margin-top: 40px;
+}
+
+@media screen and (max-width: 980px) {
+	h1 {
+	width: 200px;
+	padding-top: 30px;
+	padding-bottom: 27px;
+	text-align: center;
+	font-size: 24px;
+	float: left;
+	margin-left: 100px;
+}
+
+	.container {
+		width: 80%;
+		margin: auto;
+	}
+	
+	#main-bio {
+		width: 60%;
+	}
+
+	#connect-info {
+		width: 20%;
+	}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
 }
