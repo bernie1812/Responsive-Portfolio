@@ -1,6 +1,6 @@
 body {
 	background-image: url("assets/images/cheap.png");
-	margin: auto;
+	width: 100%;
 }
 
 
@@ -37,7 +37,7 @@ h3 {
 }
 
 p {
-	line-height: 30px;
+	line-height: 25px;
 }
 
 p,li {
@@ -52,7 +52,7 @@ ul {
 
 li {
 	margin-top: 20px;
-	margin-right: 80px;
+	margin-right: 120px;
 
 }
 
@@ -71,6 +71,7 @@ nav {
 	padding-top: 5px;
 }
 
+
 nav a {
 	margin-right: 10px;
 	float: right;
@@ -79,50 +80,23 @@ nav a {
 	padding-top: 10px;
 	text-decoration: none;
 }
-
-nav a:hover {
-	color: blue;
-}
-
-.main-header {
-	width: 100%;
-	margin: auto;
-}
-
 .container 
 {
-	width: 960px;
+	width: 980px;
 	margin: 0 auto;
 }
 
 #main-bio 
 {
-	width: 60%;
+	width: 575px;
 	background: #ffffff;
 	float: left;
-	margin: 25px 50px 0px 20px;
 	color: #777777;
 	border: 1px solid: #dddddd;
-	padding-left: 20px;
-	padding-bottom: 25px;
-	padding-top: 20px;
-	padding-right: 10px;
 }
 
-
-#connect-info hr {
-	margin: 20px 30px 20px 30px;
-}
-
-
-
-
-#main-bio,
 #bio-image {
 	float: left;
-}
-
-#bio-image {
 	padding-left: 5px;
 	width: 200px;
 	height: 200px;
@@ -133,10 +107,9 @@ nav a:hover {
 
 #connect-info {
 	float: left;
-	width: 25%;
+	width: 250px;
 	margin-top: 25px;
 	background: white;
-	height: 150px;
 	text-align: center;
 }
 
@@ -282,25 +255,55 @@ textarea {
 
 @media screen and (max-width: 980px) {
 	.container {
-		width: 585px;
+
+		width: 100%;
+		height: 600px;
 	}
 
 	#main-bio {
-		overflow: auto;
-		float: left;
-			
+
+		width: 65%;
+		padding: 5px;
+		margin-right: 5px;
+	}
+	#connect-info {
+		width: 35%;
+
 	}
 
-	#bio-image {
-		float: left;
-
+p {
+		line-height: 10px;
 	}
 
 }
+
 
 @media screen and (max-width: 768px) {
 	.container {
-		width: 768px;
+		width: 100px;
+	}
+
+	#main-bio {
+		width: 100%;
+	}
+
+	#connect-info {
+		width: 100%;
 	}
 }
+
+
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%
+	}
+		#main-bio {
+			width: 100%;
+
+		}
+		#connect-info {
+			width: 100%;
+		}
+}
+
 
